@@ -1,0 +1,26 @@
+# See https://github.com/check-spelling/check-spelling/wiki/Configuration-Examples:-excludes
+(?:^|/)(?i)COPYRIGHT
+(?:^|/)(?i)LICEN[CS]E
+(?:^|/)package(?:-lock|)\.json$
+(?:^|/)vendor/
+ignore$
+\.avi$
+\.ico$
+\.jpe?g$
+\.lock$
+\.map$
+\.min\..
+\.mod$
+\.mp[34]$
+\.png$
+\.wav$
+^\.github/
+^\Qdebian/patches/debian-config\E$
+^\Qdebian/patches/series\E$
+^\Qinclude/defines.h\E$
+^\Qinclude/stdinc.h\E$
+^\Qlibio/comm/Makefile.am\E$
+^\Qlibio/mem/Makefile.am\E$
+^\Qlibio/net/Makefile.am\E$
+^\Qmodules/Makefile.am\E$
+^\Qsql/Makefile.am\E$
